@@ -1,13 +1,13 @@
-import Navigation from './src/components/navigators';
-import { View } from 'react-native';
+import DrawerMenu from './src/components/navigators/DrawerMenu';
+import HeaderTabs from './src/components/navigators/HeaderTabs';
 import BottomTabs from './src/components/navigators/BottomTabs';
-import { Fragment } from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import 'react-native-gesture-handler';
 
 function App() {
   return ( 
-    // <Navigation />
-    <BottomTabs />
+    // <HeaderTabs />
+    // <BottomTabs />
+    <DrawerMenu />
   );
 }
 

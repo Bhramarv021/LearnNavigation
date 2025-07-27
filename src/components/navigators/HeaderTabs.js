@@ -4,7 +4,7 @@ import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import User from '../screens/User';
 
-const Navigation = () => {
+const HeaderTabs = () => {
     return (
         <NavigationContainer>
             <StackNavigatorContainer />
@@ -23,4 +23,4 @@ const StackNavigatorContainer = () => {
     )
 }
 
-export default Navigation; 
+export default HeaderTabs; 
